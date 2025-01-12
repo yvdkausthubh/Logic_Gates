@@ -1,0 +1,7 @@
+module nand_gate(
+    input a,
+    input b,
+    output f
+);
+    assign f = ~(a & b); // NAND operation
+endmodule

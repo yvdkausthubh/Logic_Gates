@@ -1,0 +1,6 @@
+module not_gate(
+    input a,
+    output f
+);
+    assign f = ~a; // NOT operation
+endmodule
